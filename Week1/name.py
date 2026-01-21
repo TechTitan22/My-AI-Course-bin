@@ -1,0 +1,1 @@
+print("My name is sehar amjad im a student of bscs")

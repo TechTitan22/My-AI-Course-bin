@@ -1,3 +1,5 @@
+
+# Feed Forward neural network 
 """
 https://builtin.com/data-science/feedforward-neural-network-intro
 
@@ -280,8 +282,9 @@ https://www.geeksforgeeks.org/epoch-in-machine-learning/
 https://nulldog.com/tensorflow-epochs-vs-steps-key-differences-explained
 
 """
-# epoche -> if the epoche is 3 then X_Y train 
+# epoche -> if the epoche is 3 then X_Y train -> Round 3 times 
 # batch -> size 
+# these both provide the deep learning  
 print("model.fit(x_train,y_train , epochs=5) :         \n" , model.fit(x_train,y_train , epochs=3 , batch_size=20 ))
 
 

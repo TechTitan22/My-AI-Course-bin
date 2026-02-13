@@ -167,7 +167,7 @@ with suppress(Exception):
     model.add(MaxPooling2D(POOL_SHAPE))
     model.add(Flatten())
     model.add(Dense(FULLY_CONNECT_NUM, activation='relu'))
-    model.add(Dense(NUM_CLASSES, activation='softmax'))
+    model.add(Dense(NUM_CLASSES, activation='softmax'))   # softmax -> to find probability
 
 
     """
